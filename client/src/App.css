@@ -81,6 +81,9 @@ width: 50%;
   padding: 5px;
   margin-top: 15px;
 }
+.formBox button:hover{
+ opacity: 0.8;
+}
 .formBox #b1{
   margin-left: 162px;
 }
@@ -94,6 +97,9 @@ width: 50%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:rgb(13,150,234);
   font-size: 12px;
+}
+.downlink1 .link:hover{
+  opacity: 1.2;
 }
 
 /* signup */
