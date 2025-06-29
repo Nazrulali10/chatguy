@@ -591,3 +591,141 @@ margin-top: 10px;
     transform: rotate(360deg);
   }
 }
+/* ========== Responsive Styles for Mobile ========== */
+@media (max-width: 768px) {
+
+  .loginPage,
+  .signupPage {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .loginBox,
+  .signupPage .signupBox,
+  .pictureBox {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .design {
+    height: auto;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .formBox {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  .inputBox {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .inputBox input {
+    width: 100%;
+    margin: 0;
+  }
+
+  .inputBox #i1,
+  .inputBox #i2,
+  .formBox #i3,
+  .formBox #i4,
+  .formBox #i5 {
+    margin-left: 0;
+  }
+
+  .formBox button,
+  .formBox #b,
+  .formBox #b1 {
+    margin: 20px auto 0;
+    display: block;
+  }
+
+  .downlink,
+  .downlink1 {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 12px;
+  }
+
+  .profile {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .profilepicbox {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile span {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .profilereadonly {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .navigation .icon,
+  .navigation .navend {
+    float: none;
+    text-align: center;
+  }
+
+  .pagebody {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .pagebody .homeleft {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid rgb(76, 73, 73);
+  }
+
+  .chatselected {
+    height: auto;
+  }
+
+  .chatheader {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .chatinput {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .chatinput .messagetype {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .imgpreview {
+    margin-left: 10px;
+    margin-top: -70px;
+  }
+
+  .chatbox {
+    max-width: 80%;
+  }
+
+  .nochatselected {
+    margin: 100px auto;
+    text-align: center;
+  }
+}
