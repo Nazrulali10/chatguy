@@ -8,7 +8,7 @@ const path = require('path')
 
 App.use(cookieParser())
 App.use(express.json({limit:"12mb"}))
-App.use(cors({ origin: "http://localhost:5001", credentials: true }))
+App.use(cors({ origin: "http://localhost:3000", credentials: true }))
 
 App.use('/api/user', require('./api/user.js'))
 App.use('/api/message',require('./api/message.js'))
