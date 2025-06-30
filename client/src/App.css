@@ -601,35 +601,30 @@ margin-top: 10px;
   }
 
   .loginBox,
-  .signupPage .signupBox,
-  .pictureBox {
+  .signupPage .signupBox {
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
   }
 
-  .design {
-    height: auto;
-    width: 100%;
-    margin: 40px auto;
-    display: flex;
-    justify-content: center;
+  .pictureBox{
+   display: none;
   }
 
   .formBox {
-    width: 90%;
+    width: 60%;
     margin: 40px auto;
     padding: 20px;
   }
 
   .inputBox {
-    margin-left: 0;
+    margin-left: 20px;
     padding: 0 10px;
   }
 
   .inputBox input {
-    width: 100%;
+    width: 80%;
     margin: 0;
   }
 
