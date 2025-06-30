@@ -6,6 +6,8 @@ const cloudinary = require('../lib/cloudinary')
 const checkAuth = async(req,res)=>{
     try {
         res.status(200).json(req.user)
+        console.log(req.user)
+        console.log(req.cookies)
     } catch (error) {
         res.status(400).json({message:"error in ca"})
         

@@ -20,6 +20,7 @@ const protectRoute = async(req,res,next)=>{
                 else{
                     req.user = user
                     console.log(token)
+                    console.log(req.cookies)
                     next()
                 }
             }

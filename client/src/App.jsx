@@ -29,6 +29,7 @@ useEffect(() => {
         credentials: 'include',
       });
       const data = await response.json();
+      console.log("Auth data:", data);
       setauthUser(data);
       if (data?._id) connectSocket(data._id, setsocket, socket, setonlineUsers);
     } catch {
