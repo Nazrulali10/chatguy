@@ -3,7 +3,7 @@ const router = express.Router()
 const userController = require('../controllers/userController')
 const protectRoute = require('../middleware/protectRoute')
 
-router.route('/checkAUth')
+router.route('/checkAuth')
         .get(protectRoute,userController.checkAuth)
 
 router.route('/signup')
