@@ -656,8 +656,7 @@ margin-top: 10px;
   }
 
   .profilepicbox {
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
   }
 
   .profile span {
@@ -672,9 +671,13 @@ margin-top: 10px;
   }
 
   .navigation .icon,
-  .navigation .navend {
+  .navigation {
     float: none;
     text-align: center;
+  }
+  .navend{
+    justify-content: end;
+    margin-top: -50px;
   }
 
   .pagebody {

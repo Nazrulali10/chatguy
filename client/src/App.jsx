@@ -3,7 +3,7 @@ import HomePage from "./pages/Homepage";
 import Profilepage from "./pages/Profilepage";
 import LoginPage from "./pages/Loginpage";
 import SignupPage from "./pages/Signuppage";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { Loader } from "lucide-react";
 import BASE_URL from "./config";
 import connectSocket from "./connectsocket";
@@ -34,6 +34,7 @@ useEffect(() => {
       if (data?._id) connectSocket(data._id, setsocket, socket, setonlineUsers);
     } catch {
       setauthUser(null);
+    
     }
     finally{
       setIsCheckingAuth(false)
@@ -43,7 +44,7 @@ useEffect(() => {
 }, []);
 
 
-  if(isCheckingAuth |isLogginigin|isSigning){
+  if(isLogginigin|isSigning){
     return(
       <div className="alignspin">
       <div className="spinner">

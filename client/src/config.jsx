@@ -1,8 +1,7 @@
 
 const BASE_URL =
   process.env.NODE_ENV === 'development'
-    ? 'https://chatguy-lim1.onrender.com'
-    //http://localhost:5001'
+    ? 'http://localhost:5001'
     : '/api';
 
 export default BASE_URL;
