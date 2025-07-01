@@ -3,7 +3,7 @@ import HomePage from "./pages/Homepage";
 import Profilepage from "./pages/Profilepage";
 import LoginPage from "./pages/Loginpage";
 import SignupPage from "./pages/Signuppage";
-import {  useState } from "react";
+import {  useState,useEffect } from "react";
 import { Loader } from "lucide-react";
 import BASE_URL from "./config";
 import connectSocket from "./connectsocket";
